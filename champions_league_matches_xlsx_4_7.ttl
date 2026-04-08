@@ -1,0 +1,989 @@
+@prefix : <addyourexample.com/> .
+@prefix schema: <http://schema.org/> .
+@prefix SS: <https://sportschema.org/ontologies/soccer/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix GN: <https://www.geonames.org/ontology/> .
+@prefix iptc: <https://sportschema.org/ontologies/main/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix WD: <https://www.wikidata.org/wiki/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+WD:Q3703575  rdf:type  foaf:Person .
+
+:47     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q56787217 ;
+        iptc:venue            WD:Q182864 ;
+        iptc:participationBy  :Qarabag ;
+        iptc:participationBy  :AthleticClub ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+WD:Q13511583  rdf:type  foaf:Person .
+
+schema:EintFrankfurt  rdf:type  rdf:Property .
+
+WD:Q4453759  rdf:type  foaf:Person .
+
+schema:Liverpool  rdf:type  rdf:Property .
+
+WD:Q55074091  rdf:type  vcard:Location .
+
+:6      iptc:result           schema:Tie ;
+        iptc:official         WD:Q119851173 ;
+        iptc:venue            WD:Q64858 ;
+        iptc:participationBy  <addyourexample.com/Bodo/Glimt> ;
+        iptc:participationBy  :SlaviaPrague ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+WD:Q64526050  rdf:type  foaf:Person .
+
+WD:Q33003  rdf:type  vcard:Location .
+
+schema:SportingCP  rdf:type  rdf:Property .
+
+:39     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q7665089 ;
+        iptc:venue            WD:Q191774 ;
+        iptc:participationBy  :Benfica ;
+        iptc:participationBy  :NewcastleUnited ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+schema:AwayWin  :winner  schema:Qarabag ;
+        :winner   schema:ParisS-G ;
+        :winner   schema:NewcastleUnited ;
+        :winner   schema:Arsenal ;
+        :winner   schema:UnionSG ;
+        :winner   schema:RealMadrid ;
+        :winner   schema:Barcelona ;
+        :winner   schema:Inter ;
+        :winner   schema:Dortmund ;
+        :winner   schema:Liverpool ;
+        :winner   schema:BayernMunich ;
+        rdf:type  rdf:Property ;
+        :winner   schema:ManchesterCity .
+
+:Liverpool  :score                   "1-5"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "65"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "3-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:BayernMunich  :score                "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "63"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-5"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:KairatAlmaty  :score                "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "68"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "0-5"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "33"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "36"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q133566  rdf:type  vcard:Location .
+
+:10     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q20895842 ;
+        iptc:venue            WD:Q127429 ;
+        iptc:participationBy  :Chelsea ;
+        iptc:participationBy  :BayernMunich ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+:31     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q4333767 ;
+        iptc:venue            WD:Q275715 ;
+        iptc:participationBy  :ParisS-G ;
+        iptc:participationBy  :Barcelona ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+:52     iptc:result           schema:Tie ;
+        iptc:official         WD:Q20895850 ;
+        iptc:venue            WD:Q780526 ;
+        iptc:participationBy  :SlaviaPrague ;
+        iptc:participationBy  :Atalanta ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+:FCCopenhagen  :score                "2-4"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "36"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "37"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+schema:Barcelona  rdf:type  rdf:Property .
+
+WD:Q60417957  rdf:type  vcard:Location .
+
+:23     iptc:result           schema:Tie ;
+        iptc:official         WD:Q6096722 ;
+        iptc:venue            WD:Q376674 ;
+        iptc:participationBy  :Tottenham ;
+        iptc:participationBy  <addyourexample.com/Bodo/Glimt> ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+schema:Galatasaray  rdf:type  rdf:Property .
+
+schema:Draw  rdf:type  rdf:Property .
+
+:Barcelona  :score                   "6-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "72"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:44     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q51154224 ;
+        iptc:venue            WD:Q262326 ;
+        iptc:participationBy  :Inter ;
+        iptc:participationBy  :UnionSG ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+WD:Q182864  rdf:type  vcard:Location .
+
+WD:Q1138958  rdf:type  vcard:Location .
+
+WD:Q62149  rdf:type  vcard:Location .
+
+WD:Q56395411  rdf:type  foaf:Person .
+
+:3      iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q20973369 ;
+        iptc:venue            WD:Q7875112 ;
+        iptc:participationBy  :Qarabag ;
+        iptc:participationBy  :Benfica ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:15     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q110692410 ;
+        iptc:venue            WD:Q287359 ;
+        iptc:participationBy  :KairatAlmaty ;
+        iptc:participationBy  :SportingCP ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+schema:Tie  :winner  schema:Draw ;
+        rdf:type  rdf:Property .
+
+:36     iptc:result           schema:Tie ;
+        iptc:official         WD:Q397125 ;
+        iptc:venue            WD:Q741157 ;
+        iptc:participationBy  :Juventus ;
+        iptc:participationBy  :Villarreal ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+:Arsenal  :score                     "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "61"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+schema:ClubBrugge  rdf:type  rdf:Property .
+
+:EintractFrankfurt  :score           "1-5"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "35"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q741157  rdf:type  vcard:Location .
+
+WD:Q397125  rdf:type  foaf:Person .
+
+:ClubBrugge  :score                  "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "37"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:PafosFC  iptc:timeOfPosessionAverageOpponent  "32"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-5"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "30"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+schema:Qarabag  rdf:type  rdf:Property .
+
+:28     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q56395411 ;
+        iptc:venue            WD:Q262326 ;
+        iptc:participationBy  :NewcastleUtd ;
+        iptc:participationBy  :UnionSG ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+schema:ParisS-G  rdf:type  rdf:Property .
+
+:49     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q59202253 ;
+        iptc:venue            WD:Q287359 ;
+        iptc:participationBy  :Marseille ;
+        iptc:participationBy  :SportingCP ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+<addyourexample.com/OlympiacosF.C.>
+        iptc:alignment               "Home"@en ;
+        :score                       "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "70"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q39079273  rdf:type  foaf:Person .
+
+WD:Q3846190  rdf:type  foaf:Person .
+
+WD:Q10822753  rdf:type  foaf:Person .
+
+WD:Q16577239  rdf:type  foaf:Person .
+
+WD:Q127429  rdf:type  vcard:Location .
+
+:Galatasaray  :score                 "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+<addyourexample.com/Bodo/Glimt>
+        :score                       "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:20     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q15804526 ;
+        iptc:venue            WD:Q171458 ;
+        iptc:participationBy  :Benfica ;
+        iptc:participationBy  :Chelsea ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+WD:Q2244081  rdf:type  vcard:Location .
+
+:8      iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q16577239 ;
+        iptc:venue            WD:Q45671 ;
+        iptc:participationBy  :AtleticoMadrid ;
+        iptc:participationBy  :Liverpool ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+:41     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q5930156 ;
+        iptc:venue            WD:Q156630 ;
+        iptc:participationBy  :ParisS-G ;
+        iptc:participationBy  :Leverkusen ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+WD:Q48159  rdf:type  vcard:Location .
+
+WD:Q64858  rdf:type  vcard:Location .
+
+:Villarreal  :score                  "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "46"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "42"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q5930156  rdf:type  foaf:Person .
+
+WD:Q4333767  rdf:type  foaf:Person .
+
+WD:Q171458  rdf:type  vcard:Location .
+
+WD:Q191774  rdf:type  vcard:Location .
+
+:0      iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q4453759 ;
+        iptc:venue            WD:Q500972 ;
+        iptc:participationBy  :UnionSG ;
+        iptc:participationBy  :PSVEindhoven ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:12     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q57198170 ;
+        iptc:venue            WD:Q1070150 ;
+        iptc:participationBy  :Monaco ;
+        iptc:participationBy  :ClubBrugge ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+WD:Q26704638  rdf:type  foaf:Person .
+
+:33     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q13511583 ;
+        iptc:venue            WD:Q82709 ;
+        iptc:participationBy  :SportingCP ;
+        iptc:participationBy  :Napoli ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+schema:AthleticClub  rdf:type  rdf:Property .
+
+:54     iptc:result           schema:Tie ;
+        iptc:official         WD:Q3846190 ;
+        iptc:venue            WD:Q318851 ;
+        iptc:participationBy  :Tottenham ;
+        iptc:participationBy  :Monaco ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+schema:Tottenham  rdf:type  rdf:Property .
+
+:Chelsea  :score                     "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "65"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:25     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q3846190 ;
+        iptc:venue            WD:Q190788 ;
+        iptc:participationBy  :RealMadrid ;
+        iptc:participationBy  :KairatAlmaty ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+:46     iptc:result           schema:Tie ;
+        iptc:official         WD:Q39079273 ;
+        iptc:venue            WD:Q190788 ;
+        iptc:participationBy  :PafosFC ;
+        iptc:participationBy  :KairatAlmaty ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+WD:Q18235361  rdf:type  foaf:Person .
+
+WD:Q164027  rdf:type  vcard:Location .
+
+:Leverkusen  :score                  "2-7"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "30"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+schema:Napoli  rdf:type  rdf:Property .
+
+:Tottenham  :score                   "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "58"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q376674  rdf:type  vcard:Location .
+
+WD:Q202150  rdf:type  vcard:Location .
+
+:5      iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q64526050 ;
+        iptc:venue            WD:Q164027 ;
+        iptc:participationBy  :Marseille ;
+        iptc:participationBy  :RealMadrid ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:17     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q3846190 ;
+        iptc:venue            WD:Q157273 ;
+        iptc:participationBy  :Galatasaray ;
+        iptc:participationBy  :EintractFrankfurt ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+WD:Q59202253  rdf:type  foaf:Person .
+
+:38     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q56395411 ;
+        iptc:venue            WD:Q275715 ;
+        iptc:participationBy  :Olympiacos ;
+        iptc:participationBy  :Barcelona ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+:Benfica  :score                     "3-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-3"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "53"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q15804526  rdf:type  foaf:Person .
+
+WD:Q82709  rdf:type  vcard:Location .
+
+schema:Arsenal  rdf:type  rdf:Property .
+
+WD:Q193431  rdf:type  vcard:Location .
+
+:PSVEindhoven  :score                "6-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "59"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-3"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "62"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:30     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q1151124 ;
+        iptc:venue            WD:Q1138958 ;
+        iptc:participationBy  :FCCopenhagen ;
+        iptc:participationBy  :Qarabag ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+schema:Dortmund  rdf:type  rdf:Property .
+
+WD:Q110692410  rdf:type  foaf:Person .
+
+:51     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q64547528 ;
+        iptc:venue            WD:Q127429 ;
+        iptc:participationBy  :ClubBrugge ;
+        iptc:participationBy  :BayernMunich ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+WD:Q20973369  rdf:type  foaf:Person .
+
+:Inter  :score                       "0-4"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "69"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "3-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "57"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:Juventus  :score                    "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "54"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "4-4"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q20895850  rdf:type  foaf:Person .
+
+schema:HomeWin  :winner  schema:SportingCP ;
+        :winner   schema:Qarabag ;
+        :winner   schema:EintFrankfurt ;
+        :winner   schema:Chelsea ;
+        rdf:type  rdf:Property ;
+        :winner   schema:RealMadrid ;
+        :winner   schema:Marseille ;
+        :winner   schema:ParisS-G ;
+        :winner   schema:Liverpool ;
+        :winner   schema:Inter ;
+        :winner   schema:Atalanta ;
+        :winner   schema:Barcelona ;
+        :winner   schema:BayernMunich ;
+        :winner   schema:Arsenal ;
+        :winner   schema:NewcastleUnited ;
+        :winner   schema:Dortmund ;
+        :winner   schema:Tottenham ;
+        :winner   schema:AthleticClub ;
+        :winner   schema:ManchesterCity ;
+        :winner   schema:Galatasaray ;
+        :winner   schema:Napoli ;
+        :winner   schema:ClubBrugge ;
+        :winner   schema:AtleticoMadrid ;
+        :winner   schema:PSVEindhoven .
+
+:Monaco  :score                      "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "29"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q156630  rdf:type  vcard:Location .
+
+:UnionSG  iptc:timeOfPosessionAverage  "31"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "0-4"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "43"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "1-3"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:SportingCP  iptc:timeOfPosessionAverage  "53"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "64"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:22     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q39079273 ;
+        iptc:venue            WD:Q133566 ;
+        iptc:participationBy  :SlaviaPrague ;
+        iptc:participationBy  :Inter ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+schema:RealMadrid  rdf:type  rdf:Property .
+
+:43     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q1151124 ;
+        iptc:venue            WD:Q741157 ;
+        iptc:participationBy  :ManchesterCity ;
+        iptc:participationBy  :Villarreal ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+WD:Q275715  rdf:type  vcard:Location .
+
+WD:Q262326  rdf:type  vcard:Location .
+
+:EintFrankfurt  iptc:alignment  "Away"@en ;
+        :score          "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+        rdf:type        vcard:Organization .
+
+:Ajax   :score                       "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "52"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q20895842  rdf:type  foaf:Person .
+
+WD:Q81492  rdf:type  vcard:Location .
+
+schema:PSVEindhoven  rdf:type  rdf:Property .
+
+:2      iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q59202253 ;
+        iptc:venue            WD:Q55074091 ;
+        iptc:participationBy  :Villarreal ;
+        iptc:participationBy  :Tottenham ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:14     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q1403916 ;
+        iptc:venue            WD:Q48159 ;
+        iptc:participationBy  :Napoli ;
+        iptc:participationBy  :ManchesterCity ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+WD:Q6096722  rdf:type  foaf:Person .
+
+WD:Q7665089  rdf:type  foaf:Person .
+
+:35     iptc:result           schema:Tie ;
+        iptc:official         WD:Q5930156 ;
+        iptc:venue            WD:Q318851 ;
+        iptc:participationBy  :ManchesterCity ;
+        iptc:participationBy  :Monaco ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+WD:Q157273  rdf:type  vcard:Location .
+
+WD:Q45671  rdf:type  vcard:Location .
+
+WD:Q150928  rdf:type  vcard:Location .
+
+WD:Q57198170  rdf:type  foaf:Person .
+
+:27     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q55355512 ;
+        iptc:venue            WD:Q60417957 ;
+        iptc:participationBy  :BayernMunich ;
+        iptc:participationBy  :PafosFC ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+schema:Chelsea  rdf:type  rdf:Property .
+
+:48     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q4333767 ;
+        iptc:venue            WD:Q81492 ;
+        iptc:participationBy  <addyourexample.com/Bodo/Glimt> ;
+        iptc:participationBy  :Galatasaray ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+:ParisS-G  :score       "2-7"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "70"^^xsd:int ;
+        iptc:alignment  "Away"@en ;
+        :score          "1-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        rdf:type        vcard:Organization .
+
+WD:Q500972  rdf:type  vcard:Location .
+
+WD:Q190788  rdf:type  vcard:Location .
+
+WD:Q7875112  rdf:type  vcard:Location .
+
+WD:Q55355512  rdf:type  foaf:Person .
+
+:7      iptc:result           schema:Tie ;
+        iptc:official         WD:Q12731153 ;
+        iptc:venue            WD:Q213508 ;
+        iptc:participationBy  :PafosFC ;
+        iptc:participationBy  <addyourexample.com/OlympiacosF.C.> ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+:19     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q10822753 ;
+        iptc:venue            WD:Q780526 ;
+        iptc:participationBy  :ClubBrugge ;
+        iptc:participationBy  :Atalanta ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+WD:Q47463621  rdf:type  foaf:Person .
+
+schema:AtleticoMadrid
+        rdf:type  rdf:Property .
+
+:40     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q3703575 ;
+        iptc:venue            WD:Q163995 ;
+        iptc:participationBy  :AtleticoMadrid ;
+        iptc:participationBy  :Arsenal ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+:NewcastleUtd  iptc:alignment  "Away"@en ;
+        :score          "0-4"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "57"^^xsd:int ;
+        rdf:type        vcard:Organization .
+
+WD:Q18015244  rdf:type  foaf:Person .
+
+:AthleticClub  :score                "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "60"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:Napoli  :score                      "6-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "41"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "27"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:11     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q26704638 ;
+        iptc:venue            WD:Q193431 ;
+        iptc:participationBy  :Atalanta ;
+        iptc:participationBy  :ParisSaintGermain ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+:32     iptc:result           schema:Tie ;
+        iptc:official         WD:Q51154224 ;
+        iptc:venue            WD:Q156630 ;
+        iptc:participationBy  :PSVEindhoven ;
+        iptc:participationBy  :Leverkusen ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+schema:Marseille  rdf:type  rdf:Property .
+
+:53     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q18015244 ;
+        iptc:venue            WD:Q164027 ;
+        iptc:participationBy  :Juventus ;
+        iptc:participationBy  :RealMadrid ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+schema:BayernMunich  rdf:type  rdf:Property .
+
+WD:Q51154224  rdf:type  foaf:Person .
+
+WD:Q119851173  rdf:type  foaf:Person .
+
+WD:Q1103944  rdf:type  foaf:Person .
+
+:ParisSaintGermain  iptc:alignment   "Home"@en ;
+        :score                       "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "67"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:Atalanta  :score                    "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "33"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:NewcastleUnited  :score             "3-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "1-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "37"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q56787217  rdf:type  foaf:Person .
+
+:Marseille  iptc:timeOfPosessionAverageOpponent  "47"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "48"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "56"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q207109  rdf:type  vcard:Location .
+
+:24     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q4453759 ;
+        iptc:venue            WD:Q202150 ;
+        iptc:participationBy  :Ajax ;
+        iptc:participationBy  :Marseille ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+:45     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q13511583 ;
+        iptc:venue            WD:Q33003 ;
+        iptc:participationBy  :Dortmund ;
+        iptc:participationBy  :FCCopenhagen ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+schema:UnionSG  rdf:type  rdf:Property .
+
+WD:Q318851  rdf:type  vcard:Location .
+
+:4      iptc:result           schema:Tie ;
+        iptc:official         WD:Q47463621 ;
+        iptc:venue            WD:Q62149 ;
+        iptc:participationBy  :Dortmund ;
+        iptc:participationBy  :Juventus ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:16     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q51154224 ;
+        iptc:venue            WD:Q191774 ;
+        iptc:participationBy  :Barcelona ;
+        iptc:participationBy  :NewcastleUnited ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+schema:ManchesterCity
+        rdf:type  rdf:Property .
+
+schema:Inter  rdf:type  rdf:Property .
+
+WD:Q64547528  rdf:type  foaf:Person .
+
+:AtleticoMadrid  :score              "4-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "5-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "3-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q1403916  rdf:type  foaf:Person .
+
+:29     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q47463621 ;
+        iptc:venue            WD:Q163995 ;
+        iptc:participationBy  :Olympiacos ;
+        iptc:participationBy  :Arsenal ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+WD:Q287359  rdf:type  vcard:Location .
+
+:50     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q1403916 ;
+        iptc:venue            WD:Q171458 ;
+        iptc:participationBy  :Ajax ;
+        iptc:participationBy  :Chelsea ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+:Dortmund  :score                    "2-4"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "64"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "4-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "4-4"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+schema:NewcastleUnited
+        rdf:type  rdf:Property .
+
+WD:Q780526  rdf:type  vcard:Location .
+
+:9      iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q4333767 ;
+        iptc:venue            WD:Q207109 ;
+        iptc:participationBy  :Inter ;
+        iptc:participationBy  :Ajax ;
+        iptc:startDateTime    "2025-09-17T07:00Z"^^xsd:date .
+
+:21     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q18015244 ;
+        iptc:venue            WD:Q2244081 ;
+        iptc:participationBy  :EintFrankfurt ;
+        iptc:participationBy  :AtleticoMadrid ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
+
+:42     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q15804526 ;
+        iptc:venue            WD:Q500972 ;
+        iptc:participationBy  :Napoli ;
+        iptc:participationBy  :PSVEindhoven ;
+        iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
+
+WD:Q12731153  rdf:type  foaf:Person .
+
+schema:Atalanta  rdf:type  rdf:Property .
+
+WD:Q1070150  rdf:type  vcard:Location .
+
+:1      iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q64547528 ;
+        iptc:venue            WD:Q182864 ;
+        iptc:participationBy  :Arsenal ;
+        iptc:participationBy  :AthleticClub ;
+        iptc:startDateTime    "2025-09-16T07:00Z"^^xsd:date .
+
+:13     iptc:result           schema:Tie ;
+        iptc:official         WD:Q18235361 ;
+        iptc:venue            WD:Q33003 ;
+        iptc:participationBy  :Leverkusen ;
+        iptc:participationBy  :FCCopenhagen ;
+        iptc:startDateTime    "2025-09-18T07:00Z"^^xsd:date .
+
+:34     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q7665089 ;
+        iptc:venue            WD:Q150928 ;
+        iptc:participationBy  :AthleticClub ;
+        iptc:participationBy  :Dortmund ;
+        iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
+
+:55     iptc:result           schema:AwayWin ;
+        iptc:official         WD:Q47463621 ;
+        iptc:venue            WD:Q157273 ;
+        iptc:participationBy  :Liverpool ;
+        iptc:participationBy  :EintractFrankfurt ;
+        iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
+
+:Olympiacos  :score     "6-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:int ;
+        iptc:alignment  "Away"@en ;
+        :score          "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "39"^^xsd:int ;
+        rdf:type        vcard:Organization .
+
+:SlaviaPrague  :score                "0-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "3-0"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "43"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q163995  rdf:type  vcard:Location .
+
+WD:Q213508  rdf:type  vcard:Location .
+
+:Qarabag  :score                     "3-1"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "40"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-3"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "47"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:ManchesterCity  :score              "0-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "2-2"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "71"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "73"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+:RealMadrid  :score                  "1-0"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "65"^^xsd:int ;
+        iptc:alignment               "Away"@en ;
+        :score                       "0-5"^^xsd:int ;
+        iptc:timeOfPosessionAverageOpponent  "67"^^xsd:int ;
+        iptc:alignment               "Home"@en ;
+        :score                       "2-1"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "44"^^xsd:int ;
+        rdf:type                     vcard:Organization .
+
+WD:Q1151124  rdf:type  foaf:Person .
+
+:26     iptc:result           schema:HomeWin ;
+        iptc:official         WD:Q1103944 ;
+        iptc:venue            WD:Q81492 ;
+        iptc:participationBy  :Liverpool ;
+        iptc:participationBy  :Galatasaray ;
+        iptc:startDateTime    "2025-09-30T07:00Z"^^xsd:date .
