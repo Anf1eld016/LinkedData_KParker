@@ -64,34 +64,34 @@ schema:AwayWin  :winner  schema:Qarabag ;
         rdf:type  rdf:Property ;
         :winner   schema:ManchesterCity .
 
-:Liverpool  :score                   "1-5"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "65"^^xsd:int ;
+:Liverpool  :score                   "1-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "65"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "3-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        :score                       "3-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:BayernMunich  :score                "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "63"^^xsd:int ;
+:BayernMunich  :score                "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "63"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-5"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+        :score                       "1-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        :score                       "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:KairatAlmaty  :score                "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "68"^^xsd:int ;
+:KairatAlmaty  :score                "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "68"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "0-5"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "33"^^xsd:int ;
+        :score                       "0-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "33"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "36"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "36"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q133566  rdf:type  vcard:Location .
@@ -117,14 +117,14 @@ WD:Q133566  rdf:type  vcard:Location .
         iptc:participationBy  :Atalanta ;
         iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
 
-:FCCopenhagen  :score                "2-4"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "36"^^xsd:int ;
+:FCCopenhagen  :score                "2-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "36"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        :score                       "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "37"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "37"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 schema:Barcelona  rdf:type  rdf:Property .
@@ -142,13 +142,13 @@ schema:Galatasaray  rdf:type  rdf:Property .
 
 schema:Draw  rdf:type  rdf:Property .
 
-:Barcelona  :score                   "6-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "72"^^xsd:int ;
+:Barcelona  :score                   "6-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "72"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:int ;
+        :score                       "1-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :44     iptc:result           schema:AwayWin ;
@@ -190,46 +190,46 @@ schema:Tie  :winner  schema:Draw ;
         iptc:participationBy  :Villarreal ;
         iptc:startDateTime    "2025-10-01T07:00Z"^^xsd:date .
 
-:Arsenal  :score                     "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+:Arsenal  :score                     "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "61"^^xsd:int ;
+        :score                       "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "61"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        :score                       "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 schema:ClubBrugge  rdf:type  rdf:Property .
 
-:EintractFrankfurt  :score           "1-5"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "35"^^xsd:int ;
+:EintractFrankfurt  :score           "1-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "35"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+        :score                       "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q741157  rdf:type  vcard:Location .
 
 WD:Q397125  rdf:type  foaf:Person .
 
-:ClubBrugge  :score                  "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "37"^^xsd:int ;
+:ClubBrugge  :score                  "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "37"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:PafosFC  iptc:timeOfPosessionAverageOpponent  "32"^^xsd:int ;
+:PafosFC  iptc:timeOfPosessionAverageOpponent  "32"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-5"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+        :score                       "1-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "30"^^xsd:int ;
+        :score                       "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "30"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 schema:Qarabag  rdf:type  rdf:Property .
@@ -252,8 +252,8 @@ schema:ParisS-G  rdf:type  rdf:Property .
 
 <addyourexample.com/OlympiacosF.C.>
         iptc:alignment               "Home"@en ;
-        :score                       "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "70"^^xsd:int ;
+        :score                       "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "70"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q39079273  rdf:type  foaf:Person .
@@ -266,24 +266,24 @@ WD:Q16577239  rdf:type  foaf:Person .
 
 WD:Q127429  rdf:type  vcard:Location .
 
-:Galatasaray  :score                 "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+:Galatasaray  :score                 "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        :score                       "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 <addyourexample.com/Bodo/Glimt>
-        :score                       "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:int ;
+        :score                       "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "61"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :20     iptc:result           schema:HomeWin ;
@@ -313,14 +313,14 @@ WD:Q48159  rdf:type  vcard:Location .
 
 WD:Q64858  rdf:type  vcard:Location .
 
-:Villarreal  :score                  "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "34"^^xsd:int ;
+:Villarreal  :score                  "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "34"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "46"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "46"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "42"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "42"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q5930156  rdf:type  foaf:Person .
@@ -365,14 +365,14 @@ schema:AthleticClub  rdf:type  rdf:Property .
 
 schema:Tottenham  rdf:type  rdf:Property .
 
-:Chelsea  :score                     "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "65"^^xsd:int ;
+:Chelsea  :score                     "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "65"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        :score                       "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :25     iptc:result           schema:AwayWin ;
@@ -393,26 +393,26 @@ WD:Q18235361  rdf:type  foaf:Person .
 
 WD:Q164027  rdf:type  vcard:Location .
 
-:Leverkusen  :score                  "2-7"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "30"^^xsd:int ;
+:Leverkusen  :score                  "2-7"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "30"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        :score                       "1-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "63"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 schema:Napoli  rdf:type  rdf:Property .
 
-:Tottenham  :score                   "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+:Tottenham  :score                   "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "58"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "58"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q376674  rdf:type  vcard:Location .
@@ -442,14 +442,14 @@ WD:Q59202253  rdf:type  foaf:Person .
         iptc:participationBy  :Barcelona ;
         iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
 
-:Benfica  :score                     "3-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+:Benfica  :score                     "3-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        :score                       "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-3"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "53"^^xsd:int ;
+        :score                       "2-3"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "53"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q15804526  rdf:type  foaf:Person .
@@ -460,14 +460,14 @@ schema:Arsenal  rdf:type  rdf:Property .
 
 WD:Q193431  rdf:type  vcard:Location .
 
-:PSVEindhoven  :score                "6-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "59"^^xsd:int ;
+:PSVEindhoven  :score                "6-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "59"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        :score                       "1-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-3"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "62"^^xsd:int ;
+        :score                       "1-3"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "62"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :30     iptc:result           schema:HomeWin ;
@@ -490,24 +490,24 @@ WD:Q110692410  rdf:type  foaf:Person .
 
 WD:Q20973369  rdf:type  foaf:Person .
 
-:Inter  :score                       "0-4"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "69"^^xsd:int ;
+:Inter  :score                       "0-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "69"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "3-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "57"^^xsd:int ;
+        :score                       "3-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "57"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        :score                       "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:Juventus  :score                    "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:int ;
+:Juventus  :score                    "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "54"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "54"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "4-4"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        :score                       "4-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q20895850  rdf:type  foaf:Person .
@@ -537,34 +537,34 @@ schema:HomeWin  :winner  schema:SportingCP ;
         :winner   schema:AtleticoMadrid ;
         :winner   schema:PSVEindhoven .
 
-:Monaco  :score                      "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+:Monaco  :score                      "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "29"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "29"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "51"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q156630  rdf:type  vcard:Location .
 
-:UnionSG  iptc:timeOfPosessionAverage  "31"^^xsd:int ;
+:UnionSG  iptc:timeOfPosessionAverage  "31"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "0-4"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "43"^^xsd:int ;
+        :score                       "0-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "43"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "1-3"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:int ;
+        :score                       "1-3"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:SportingCP  iptc:timeOfPosessionAverage  "53"^^xsd:int ;
+:SportingCP  iptc:timeOfPosessionAverage  "53"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "64"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "64"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :22     iptc:result           schema:HomeWin ;
@@ -588,18 +588,18 @@ WD:Q275715  rdf:type  vcard:Location .
 WD:Q262326  rdf:type  vcard:Location .
 
 :EintFrankfurt  iptc:alignment  "Away"@en ;
-        :score          "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+        :score          "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:integer ;
         rdf:type        vcard:Organization .
 
-:Ajax   :score                       "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:int ;
+:Ajax   :score                       "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "35"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "52"^^xsd:int ;
+        :score                       "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "52"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+        :score                       "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q20895842  rdf:type  foaf:Person .
@@ -657,11 +657,11 @@ schema:Chelsea  rdf:type  rdf:Property .
         iptc:participationBy  :Galatasaray ;
         iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
 
-:ParisS-G  :score       "2-7"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "70"^^xsd:int ;
+:ParisS-G  :score       "2-7"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "70"^^xsd:integer ;
         iptc:alignment  "Away"@en ;
-        :score          "1-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:int ;
+        :score          "1-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "53"^^xsd:integer ;
         rdf:type        vcard:Organization .
 
 WD:Q500972  rdf:type  vcard:Location .
@@ -699,30 +699,30 @@ schema:AtleticoMadrid
         iptc:startDateTime    "2025-10-21T07:00Z"^^xsd:date .
 
 :NewcastleUtd  iptc:alignment  "Away"@en ;
-        :score          "0-4"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "57"^^xsd:int ;
+        :score          "0-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "57"^^xsd:integer ;
         rdf:type        vcard:Organization .
 
 WD:Q18015244  rdf:type  foaf:Person .
 
-:AthleticClub  :score                "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "60"^^xsd:int ;
+:AthleticClub  :score                "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "60"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "39"^^xsd:int ;
+        :score                       "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "39"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:Napoli  :score                      "6-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "41"^^xsd:int ;
+:Napoli  :score                      "6-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "41"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "27"^^xsd:int ;
+        :score                       "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "27"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 :11     iptc:result           schema:HomeWin ;
@@ -757,36 +757,36 @@ WD:Q119851173  rdf:type  foaf:Person .
 WD:Q1103944  rdf:type  foaf:Person .
 
 :ParisSaintGermain  iptc:alignment   "Home"@en ;
-        :score                       "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "67"^^xsd:int ;
+        :score                       "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "67"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:Atalanta  :score                    "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "56"^^xsd:int ;
+:Atalanta  :score                    "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "56"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "33"^^xsd:int ;
+        :score                       "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "33"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:NewcastleUnited  :score             "3-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+:NewcastleUnited  :score             "3-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "1-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "37"^^xsd:int ;
+        :score                       "1-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "37"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q56787217  rdf:type  foaf:Person .
 
-:Marseille  iptc:timeOfPosessionAverageOpponent  "47"^^xsd:int ;
+:Marseille  iptc:timeOfPosessionAverageOpponent  "47"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "48"^^xsd:int ;
+        :score                       "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "48"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "56"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "56"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q207109  rdf:type  vcard:Location .
@@ -830,14 +830,14 @@ schema:Inter  rdf:type  rdf:Property .
 
 WD:Q64547528  rdf:type  foaf:Person .
 
-:AtleticoMadrid  :score              "4-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:int ;
+:AtleticoMadrid  :score              "4-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "49"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "5-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "51"^^xsd:int ;
+        :score                       "5-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "51"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "3-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+        :score                       "3-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q1403916  rdf:type  foaf:Person .
@@ -858,14 +858,14 @@ WD:Q287359  rdf:type  vcard:Location .
         iptc:participationBy  :Chelsea ;
         iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
 
-:Dortmund  :score                    "2-4"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "64"^^xsd:int ;
+:Dortmund  :score                    "2-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "64"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "4-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "52"^^xsd:int ;
+        :score                       "4-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "52"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "4-4"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:int ;
+        :score                       "4-4"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "48"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 schema:NewcastleUnited
@@ -928,55 +928,55 @@ WD:Q1070150  rdf:type  vcard:Location .
         iptc:participationBy  :EintractFrankfurt ;
         iptc:startDateTime    "2025-10-22T07:00Z"^^xsd:date .
 
-:Olympiacos  :score     "6-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:int ;
+:Olympiacos  :score     "6-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "38"^^xsd:integer ;
         iptc:alignment  "Away"@en ;
-        :score          "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "39"^^xsd:int ;
+        :score          "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "39"^^xsd:integer ;
         rdf:type        vcard:Organization .
 
-:SlaviaPrague  :score                "0-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:int ;
+:SlaviaPrague  :score                "0-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "44"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "3-0"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "43"^^xsd:int ;
+        :score                       "3-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "43"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "47"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "47"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q163995  rdf:type  vcard:Location .
 
 WD:Q213508  rdf:type  vcard:Location .
 
-:Qarabag  :score                     "3-1"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "40"^^xsd:int ;
+:Qarabag  :score                     "3-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "40"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "49"^^xsd:int ;
+        :score                       "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "49"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-3"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "47"^^xsd:int ;
+        :score                       "2-3"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "47"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:ManchesterCity  :score              "0-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:int ;
+:ManchesterCity  :score              "0-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "66"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "2-2"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "71"^^xsd:int ;
+        :score                       "2-2"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "71"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "73"^^xsd:int ;
+        :score                       "2-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "73"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
-:RealMadrid  :score                  "1-0"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "65"^^xsd:int ;
+:RealMadrid  :score                  "1-0"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "65"^^xsd:integer ;
         iptc:alignment               "Away"@en ;
-        :score                       "0-5"^^xsd:int ;
-        iptc:timeOfPosessionAverageOpponent  "67"^^xsd:int ;
+        :score                       "0-5"^^xsd:integer ;
+        iptc:timeOfPosessionAverageOpponent  "67"^^xsd:integer ;
         iptc:alignment               "Home"@en ;
-        :score                       "2-1"^^xsd:int ;
-        iptc:timeOfPosessionAverage  "44"^^xsd:int ;
+        :score                       "2-1"^^xsd:integer ;
+        iptc:timeOfPosessionAverage  "44"^^xsd:integer ;
         rdf:type                     vcard:Organization .
 
 WD:Q1151124  rdf:type  foaf:Person .
